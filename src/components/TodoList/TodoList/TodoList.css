@@ -1,0 +1,32 @@
+.todoList {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.noTodo {
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0.5;
+}

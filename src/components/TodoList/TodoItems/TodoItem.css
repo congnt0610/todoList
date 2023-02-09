@@ -1,0 +1,133 @@
+.todoListModal {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    display: flex;
+}
+
+.todoListModal:hover {
+    border: 2px solid rgb(5, 120, 197);
+    /* cursor: pointer; */
+}
+
+
+/* .todoItem {
+
+} */
+
+.checkbox {
+    margin: auto;
+    cursor: pointer;
+}
+
+.edit {
+    margin: auto;
+    margin-left: 30px;
+    cursor: pointer;
+    color: rgb(5, 120, 197);
+}
+
+.delete {
+    margin: auto;
+    margin-left: 30px;
+    cursor: pointer;
+    color: red;
+}
+
+.leftBtn {
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.done,
+.undone {
+    cursor: pointer;
+}
+
+.rightBtn {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.todoItem {
+    width: 100%;
+    word-break: break-all;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.hide {
+    display: none;
+}
+
+.todoListModal:hover .hide {
+    display: flex;
+}
+
+.deadline {
+    font-size: 15px;
+    display: flex;
+    /* text-decoration: line-through;
+    opacity: 0.3; */
+}
+
+.deadline1 {
+    font-size: 15px;
+    display: flex;
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.editInput {
+    padding-right: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.editingItem {
+    display: flex;
+}
+
+.nearNoti {
+    background-color: rgba(255, 255, 4, 0.781);
+    color: black;
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.lateNoti {
+    background-color: red;
+    color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.nearDeadline {
+    color: orange;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.lateDeadline {
+    color: red;
+    text-decoration: none;
+    opacity: 1;
+}

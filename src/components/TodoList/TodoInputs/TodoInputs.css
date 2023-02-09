@@ -1,0 +1,88 @@
+.inputBoxShadow {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(192, 192, 192, 0.5);
+}
+
+.inputBox {
+    position: relative;
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    top: 20%;
+    font-family: "Kanit", sans-serif;
+    z-index: 2;
+}
+
+input {
+    font-family: "Kanit", sans-serif;
+}
+
+.inputBoxButton button.btn_add {
+    background-color: rgb(5, 120, 197);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputBoxButton button.btn_add:hover,
+.inputBoxButton button.btn_cancel:hover {
+    opacity: 0.8;
+    color: white;
+    transition: 0.5s;
+}
+
+.inputBoxButton button.btn_cancel {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputTodo {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 35px;
+}
+
+.btn {
+    font-family: 'Kanit', sans-serif;
+    padding: 10px;
+    width: 120px;
+    margin: 0 15px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.inputBoxButton {
+    margin-top: -17px;
+    margin-left: 15px;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+.warning {
+    font-size: 15px;
+    color: red;
+}
+
+.inputBoxTodos h3 {
+    margin-top: -5px;
+    font-size: 25px;
+}

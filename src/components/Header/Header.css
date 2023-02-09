@@ -1,0 +1,35 @@
+.todos {
+    display: flex;
+    color: #303133;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.add {
+    font-size: 10px;
+    text-transform: none;
+    font-size: 20px;
+    background-color: rgb(5, 120, 197);
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.add:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.todos h1 {
+    font-size: 25px;
+    margin-right: 290px;
+}
